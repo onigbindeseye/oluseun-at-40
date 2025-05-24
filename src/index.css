@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid skyblue; */
+}
+a {
+  font-family: "Nunito", sans-serif;
+}
