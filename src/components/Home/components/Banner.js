@@ -7,39 +7,9 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import banner1 from "../../../assets/images/oluseun_2.jpg";
 import banner2 from "../../../assets/images/oluseun_3.jpg";
+import banner3 from "../../../assets/banner/banner1.png";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
-
-const images = [
-  {
-    label: "banner_image1",
-    imgPath: banner1,
-    title: "Celebrating",
-    subtitle: "Oluseun Onigbinde @ 40",
-    size: "h2",
-  },
-  {
-    label: "banner_image2",
-    imgPath: banner2,
-    title: "Celebrating",
-    subtitle: "A Transparency Advocate @ 40",
-    size: "h2",
-  },
-  {
-    label: "banner_image3",
-    imgPath: banner1,
-    title: "Celebrating",
-    subtitle: "A Father, Friend and Mentor @ 40",
-    size: "h2",
-  },
-  {
-    label: "banner_image4",
-    imgPath: banner2,
-    title: "Celebrating",
-    subtitle: "An Exceptional Philanthropist @ 40",
-    size: "h2",
-  },
-];
 
 const ColorButton = styled(Button)(() => ({
   color: "#fff",
@@ -56,6 +26,85 @@ const ColorButton = styled(Button)(() => ({
     borderColor: "#F5EEDC",
   },
 }));
+
+const images = [
+  {
+    label: "banner_image5",
+    imgPath: banner3,
+    title: "",
+    subtitle: "",
+    size: "h2",
+    button: "",
+  },
+  {
+    label: "banner_image1",
+    imgPath: banner1,
+    title: "Celebrating",
+    subtitle: "Oluseun Onigbinde @ 40",
+    size: "h2",
+    button: (
+      <ColorButton
+        component={"a"}
+        variant="contained"
+        size="medium"
+        href={"/rsvp"}
+      >
+        RSVP
+      </ColorButton>
+    ),
+  },
+  {
+    label: "banner_image2",
+    imgPath: banner2,
+    title: "Celebrating",
+    subtitle: "A Transparency Advocate @ 40",
+    size: "h2",
+    button: (
+      <ColorButton
+        component={"a"}
+        variant="contained"
+        size="medium"
+        href={"/rsvp"}
+      >
+        RSVP
+      </ColorButton>
+    ),
+  },
+  {
+    label: "banner_image3",
+    imgPath: banner1,
+    title: "Celebrating",
+    subtitle: "A Father, Friend and Mentor @ 40",
+    size: "h2",
+    button: (
+      <ColorButton
+        component={"a"}
+        variant="contained"
+        size="medium"
+        href={"/rsvp"}
+      >
+        RSVP
+      </ColorButton>
+    ),
+  },
+  {
+    label: "banner_image4",
+    imgPath: banner2,
+    title: "Celebrating",
+    subtitle: "An Exceptional Philanthropist @ 40",
+    size: "h2",
+    button: (
+      <ColorButton
+        component={"a"}
+        variant="contained"
+        size="medium"
+        href={"/rsvp"}
+      >
+        RSVP
+      </ColorButton>
+    ),
+  },
+];
 
 function Banner() {
   const theme = useTheme();
@@ -80,7 +129,7 @@ function Banner() {
               <Box>
                 <Box
                   component="img"
-                  height={{ xs: "100vh", sm: "850px" }}
+                  height={{ xs: "100vh", sm: "950px" }}
                   display={{ xs: "none", sm: "block" }}
                   sx={{
                     position: "relative",
@@ -123,14 +172,7 @@ function Banner() {
                       display={"flex"}
                       justifyContent={"center"}
                     >
-                      <ColorButton
-                        component={"a"}
-                        variant="contained"
-                        size="medium"
-                        href={"/rsvp"}
-                      >
-                        RSVP
-                      </ColorButton>
+                      {step.button}
                     </Box>
                   </Box>
                 </Box>
@@ -179,14 +221,7 @@ function Banner() {
                     display={"flex"}
                     justifyContent={"center"}
                   >
-                    <ColorButton
-                      component={"a"}
-                      variant="contained"
-                      size="medium"
-                      href={"/rsvp"}
-                    >
-                      RSVP
-                    </ColorButton>
+                    {step.button}
                   </Box>
                 </Box>
               </Box>
