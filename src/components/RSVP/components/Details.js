@@ -2,9 +2,9 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import image1 from "../../../assets/images/invitation.jpg";
-import image2 from "../../../assets/images/img_16.jpg";
-import image3 from "../../../assets/images/img_41.jpg";
+import image1 from "../../../assets/images/birthday/1_1.jpg";
+import image2 from "../../../assets/images/birthday/2.jpg";
+import image3 from "../../../assets/images/birthday/4_1.jpg";
 import invitation from "../../../assets/icons/invitation.png";
 import cake from "../../../assets/icons/cake.png";
 import ballon from "../../../assets/icons/balloon.png";
@@ -28,7 +28,7 @@ const Details = () => {
         <Grid items sm={12} md={4}>
           <Box
             component="img"
-            height={{ xs: "50vh", sm: "500px" }}
+            height={{ xs: "60vh", sm: "600px" }}
             sx={{
               position: "relative",
               overflow: "hidden",
@@ -44,7 +44,7 @@ const Details = () => {
             <Box display={"flex"} justifyContent={"center"} marginBottom={"6%"}>
               <Box
                 component="img"
-                height={{ xs: "1050x", sm: "64px" }}
+                height={{ xs: "92px", sm: "64px" }}
                 width={{ xs: "28%", sm: "14%" }}
                 sx={{
                   objectFit: "cover",
@@ -78,7 +78,7 @@ const Details = () => {
         <Grid items sm={12} md={4}>
           <Box
             component="img"
-            height={{ xs: "85vh", sm: "500px" }}
+            height={{ xs: "75vh", sm: "600px" }}
             sx={{
               position: "relative",
               overflow: "hidden",
@@ -129,7 +129,7 @@ const Details = () => {
         <Grid items sm={12} md={4}>
           <Box
             component="img"
-            height={{ xs: "68vh", sm: "500px" }}
+            height={{ xs: "68vh", sm: "600px" }}
             sx={{
               position: "relative",
               overflow: "hidden",
@@ -177,6 +177,10 @@ const Details = () => {
             <Typography textAlign={"center"}>
               {" "}
               138 Lekki - Epe Expy, Lekki Penninsula II, Lekki, Lagos
+            </Typography>
+            <Typography variant={"body2"} textAlign={"center"} fontWeight={700}>
+              {" "}
+              *This event is strictly by invitation
             </Typography>
           </Box>
         </Grid>

@@ -167,7 +167,7 @@ const RsvpForm = () => {
               <Grid item xs={12} sm={12}>
                 <TextField
                   required
-                  placeholder="Title *"
+                  placeholder="Birthday Wish Title *"
                   variant="outlined"
                   name={"title"}
                   fullWidth
@@ -186,7 +186,7 @@ const RsvpForm = () => {
               <Grid item xs={12} sm={12}>
                 <TextField
                   required
-                  placeholder="Birthday Wishes *"
+                  placeholder="Birthday Wish Message*"
                   variant="outlined"
                   name={"message"}
                   fullWidth
