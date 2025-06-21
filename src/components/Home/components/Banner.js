@@ -8,6 +8,7 @@ import { autoPlay } from "react-swipeable-views-utils";
 import banner1 from "../../../assets/images/oluseun_2.jpg";
 import banner2 from "../../../assets/images/oluseun_3.jpg";
 import banner3 from "../../../assets/banner/banner1.png";
+import banner4 from "../../../assets/images/birthday/7.jpg";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -72,7 +73,7 @@ const images = [
   },
   {
     label: "banner_image3",
-    imgPath: banner1,
+    imgPath: banner4,
     title: "Celebrating",
     subtitle: "A Father, Friend and Mentor @ 40",
     size: "h2",
@@ -89,7 +90,7 @@ const images = [
   },
   {
     label: "banner_image4",
-    imgPath: banner2,
+    imgPath: banner1,
     title: "Celebrating",
     subtitle: "An Exceptional Philanthropist @ 40",
     size: "h2",

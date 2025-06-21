@@ -37,7 +37,7 @@ const Profile = () => {
             children: Wuraola, Ireoluwa and Adesuwa.
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={5} marginTop={{ xs: "6%", sm: "0%" }}>
+        <Grid item xs={12} sm={5} marginTop={{ xs: "15%", sm: "5%" }}>
           <Box
             component="img"
             height={{ xs: "70vh", sm: "750px" }}
@@ -49,7 +49,17 @@ const Profile = () => {
             alt={"Profile Image"}
           />
         </Grid>
-        <Grid item xs={12} sm={7}>
+        <Grid item xs={12} sm={7} marginTop={{ xs: "0%", sm: "5%" }}>
+          <Typography
+            textAlign={"center"}
+            variant={"h4"}
+            color={"#071783"}
+            padding={{ xs: "4% 0% 4% 0%", sm: "2% 0% 2% 0%" }}
+            fontFamily={"Alex Brush"}
+          >
+            "Oluseun Onigbinde is a highly respected technology entrepreneur and
+            a pioneer in Nigeria and Africa's civic-technology ecosystem."
+          </Typography>
           <Typography
             textAlign={"left"}
             variant={"body1"}
@@ -91,16 +101,6 @@ const Profile = () => {
             MacArthur Foundation. BudgIT’s for-profit spinoff, Fitila, which
             Oluseun chairs, has collaborated with clients like Nestlé, the UK
             Department for International Development, and Union Bank.
-          </Typography>
-          <Typography
-            textAlign={"center"}
-            variant={"h4"}
-            color={"#071783"}
-            padding={{ xs: "4% 0% 4% 0%", sm: "2% 0% 2% 0%" }}
-            fontFamily={"Alex Brush"}
-          >
-            "Oluseun Onigbinde is a highly respected technology entrepreneur and
-            a pioneer in Nigeria and Africa's civic-technology ecosystem."
           </Typography>
         </Grid>
       </Grid>

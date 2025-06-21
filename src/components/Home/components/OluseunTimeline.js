@@ -12,7 +12,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Avatar from "@mui/material/Avatar";
 import Chip from "@mui/material/Chip";
-import logo from "../../../assets/images/oluseun_1.jpg";
+import logo from "../../../assets/images/birthday/1_1.jpg";
 import story from "./story";
 
 export default function OluseunTimeline() {

@@ -6,7 +6,7 @@ import profile1 from "../../../assets/images/birthday/8.jpg";
 
 const ProfilePage2 = () => {
   return (
-    <Box paddingTop={{ xs: "25%", sm: "10%" }} data-aos={"fade-up"}>
+    <Box paddingTop={{ xs: "25%", sm: "5%" }} data-aos={"fade-up"}>
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12}>
           <Typography
@@ -19,6 +19,24 @@ const ProfilePage2 = () => {
             "Oluseun Onigbinde was named one of the 100 Companies to Inspire
             Africa by the London Stock Exchange in 2019"
           </Typography>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={5}
+          marginTop={{ xs: "6%", sm: "0%" }}
+          display={{ xs: "block", sm: "none" }}
+        >
+          <Box
+            component="img"
+            height={{ xs: "70vh", sm: "650px" }}
+            sx={{
+              objectFit: "cover",
+              width: "100%",
+            }}
+            src={profile1}
+            alt={"Profile Image"}
+          />
         </Grid>
         <Grid item xs={12} sm={7}>
           <Typography
@@ -40,7 +58,7 @@ const ProfilePage2 = () => {
           <Typography
             textAlign={"left"}
             variant={"body1"}
-            padding={{ xs: "4% 2% 10% 0%", sm: "2% 4% 2% 0%" }}
+            padding={{ xs: "4% 2% 0% 0%", sm: "2% 4% 2% 0%" }}
           >
             Oluseun’s entrepreneurial achievements have earned international
             recognition. He was named one of the 100 Companies to Inspire Africa
@@ -56,7 +74,7 @@ const ProfilePage2 = () => {
           <Typography
             textAlign={"left"}
             variant={"body1"}
-            padding={{ xs: "4% 2% 10% 0%", sm: "0% 4% 2% 0%" }}
+            padding={{ xs: "4% 2% 0% 0%", sm: "0% 4% 2% 0%" }}
           >
             A strong advocate for fiscal transparency and the power of Open
             Data, Oluseun received the Future Awards Prize for Science and Tech
@@ -78,7 +96,13 @@ const ProfilePage2 = () => {
             internet access and learning materials to young people in Ogbomoso.
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={5} marginTop={{ xs: "6%", sm: "0%" }}>
+        <Grid
+          item
+          xs={12}
+          sm={5}
+          marginTop={{ xs: "6%", sm: "0%" }}
+          display={{ xs: "none", sm: "block" }}
+        >
           <Box
             component="img"
             height={{ xs: "70vh", sm: "650px" }}

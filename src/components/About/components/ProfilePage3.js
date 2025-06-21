@@ -6,7 +6,7 @@ import profile1 from "../../../assets/images/birthday/9.jpg";
 
 const ProfilePage3 = () => {
   return (
-    <Box paddingTop={{ xs: "25%", sm: "10%" }} data-aos={"fade-up"}>
+    <Box paddingTop={{ xs: "25%", sm: "5%" }} data-aos={"fade-up"}>
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12}>
           <Typography
@@ -49,7 +49,7 @@ const ProfilePage3 = () => {
           <Typography
             textAlign={"left"}
             variant={"body1"}
-            padding={{ xs: "4% 0% 10% 2%", sm: "2% 0% 2% 4%" }}
+            padding={{ xs: "4% 0% 0% 2%", sm: "2% 0% 2% 4%" }}
           >
             Oluseun has also contributed his expertise to several institutions,
             including the Budget Office of the Federation, Nigerian Extractive
@@ -68,7 +68,7 @@ const ProfilePage3 = () => {
           <Typography
             textAlign={"left"}
             variant={"body1"}
-            padding={{ xs: "4% 0% 10% 2%", sm: "2% 0% 2% 4%" }}
+            padding={{ xs: "4% 0% 0% 2%", sm: "2% 0% 2% 4%" }}
           >
             As a sought-after speaker, Oluseun has made impactful presentations
             at global events, including Chatham House, Bloomberg Media
