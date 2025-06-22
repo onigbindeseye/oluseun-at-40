@@ -16,8 +16,9 @@ const ProfilePage2 = () => {
             padding={{ xs: "4% 0% 4% 0%", sm: "2% 0% 2% 0%" }}
             fontFamily={"Alex Brush"}
           >
-            "Oluseun Onigbinde was named one of the 100 Companies to Inspire
-            Africa by the London Stock Exchange in 2019"
+            "He has rebuilt a computer lab for his alma mater, Loyola College,
+            and provided over 700 scholarships for youths in Christ Apostolic
+            Church, Agbala Itura, Ibadan, since 2019"
           </Typography>
         </Grid>
         <Grid
@@ -41,59 +42,50 @@ const ProfilePage2 = () => {
         <Grid item xs={12} sm={7}>
           <Typography
             textAlign={"left"}
-            variant={"body1"}
+            variant={"h4"}
+            padding={{ xs: "4% 2% 0% 0%", sm: "2% 4% 0% 0%" }}
+            fontWeight={700}
+            color={"#071783"}
+            fontFamily={"Cardo"}
+          >
+            God's Engineering
+          </Typography>
+          <Typography
+            textAlign={"left"}
+            variant={"h6"}
             padding={{ xs: "4% 2% 0% 0%", sm: "2% 4% 0% 0%" }}
           >
-            As a leader in the civic-tech ecosystem, Oluseun also founded Civic
-            Hive, Nigeria’s leading incubator for civic-tech ideas. Civic Hive
-            has supported over 40 organizations in data, design, and technology
-            development. Additionally, during his time as a Knight Fellow with
-            the US-based International Center for Journalists, he revolutionized
-            the use of health data by connecting data-driven designs with
-            newsrooms and civic leaders. Oluseun Onigbinde founded Kwerty
-            Systems in 2019, a private data service company for international
-            clients, which also provides investment advisory for inclusive
-            economies.
+            Oluseun Onigbinde has visited at least 28 countries expanding
+            conversations on the need for accountability & inclusive civic
+            engagement. He has contributed to over 40 BudgIT publications on
+            issues of fiscal transparency, accountability, civic engagement,
+            extractives reform and public sector reform. He has worked with the
+            National Assembly on Cost of Governance reform committee and also
+            briefly served as Technical Adviser to the Minister of State for
+            Budget and National Assembly.
           </Typography>
           <Typography
             textAlign={"left"}
-            variant={"body1"}
+            variant={"h6"}
             padding={{ xs: "4% 2% 0% 0%", sm: "2% 4% 2% 0%" }}
           >
-            Oluseun’s entrepreneurial achievements have earned international
-            recognition. He was named one of the 100 Companies to Inspire Africa
-            by the London Stock Exchange in 2019 and one of the 100 Most
-            Influential Africans. He is also a recipient of prestigious honors,
-            including the Bloomberg Media Fellowship, Obama Foundation
-            Scholarship at Columbia University, Archbishop Desmond Tutu
-            Fellowship, Quartz Africa 30 Innovators Award, Knight Foundation
-            Fellowship, Aspen New Voices Fellowship, Ashoka Fellowship,
-            Harambean (Harambe Entrepreneur Alliance), Seras Award for
-            Outstanding Leader, and the JCI TOYP Award.
+            He has made presentations at Chatham House, Bloomberg Media
+            Innovators Africa (Naivasha & Dakar), Jesus House DC, This Present
+            House, Covenant Nation's The Platform, Daystar’s Excellence in
+            Leadership Conference, Open Government Partnership Summits (London,
+            Paris & Ottawa), Skoll Foundation Summit (Oxford), Open Knowledge
+            Conference (Helsinki & Berlin), African Philanthropy Forum and
+            Transparency Camp. He's also TV analyst for Channels TV, CNBC Africa
+            and TVC Nigeria.
           </Typography>
           <Typography
             textAlign={"left"}
-            variant={"body1"}
-            padding={{ xs: "4% 2% 0% 0%", sm: "0% 4% 2% 0%" }}
-          >
-            A strong advocate for fiscal transparency and the power of Open
-            Data, Oluseun received the Future Awards Prize for Science and Tech
-            Innovation in 2012. In 2019, he was appointed as a Technical Adviser
-            to Nigeria’s Ministry of Budget and National Planning.
-          </Typography>
-          <Typography
-            textAlign={"left"}
-            variant={"body1"}
+            variant={"h6"}
             padding={{ xs: "4% 2% 10% 0%", sm: "0% 4% 2% 0%" }}
           >
-            Through The Proximity Trust, Oluseun has demonstrated his commitment
-            to his roots and communities. He has rebuilt a computer lab for his
-            alma mater, Loyola College, and provided over 700 scholarships for
-            youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019.
-            In 2024, he transformed The Proximity Trust into the Oluseun
-            Onigbinde Resource Centre, which has supported his alma mater’s
-            library, organized literacy awards program and also provided free
-            internet access and learning materials to young people in Ogbomoso.
+            Oluseun Onigbinde received education at Loyola College, Ibadan,
+            Federal University of Agriculture, Abeokuta, Stanford University &
+            Columbia University.
           </Typography>
         </Grid>
         <Grid

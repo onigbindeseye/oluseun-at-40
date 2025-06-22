@@ -19,6 +19,32 @@ export default function OluseunTimeline() {
   return (
     <Box margin={{ xs: "25% 0% 10% 0%", sm: "10% 0% 0% 0%" }}>
       <Typography
+        variant="h5"
+        color="#071783"
+        fontWeight={400}
+        padding={"5% 0% 10% 0%"}
+        textAlign={"center"}
+        fontStyle={"italic"}
+      >
+        "Savvy in the use of data and social media, Onigbinde founded BudgIT
+        Nigeria, a website that provides facts and figures the average Nigerian
+        can understand. Onigbinde is no doubt a thorn in the side of some of
+        Nigeria’s elite. To me, he is an example of what one person can do to
+        make a difference."
+        <Typography
+          component={"span"}
+          variant="h5"
+          color="#071783"
+          fontWeight={700}
+          textAlign={"center"}
+          fontFamily={"Alex Brush"}
+          fontStyle={"normal"}
+        >
+          {" "}
+          - Bill Gates
+        </Typography>
+      </Typography>
+      <Typography
         variant="h2"
         color="#DD9D37"
         fontWeight={400}

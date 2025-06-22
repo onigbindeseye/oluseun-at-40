@@ -8,6 +8,7 @@ import Footer from "../../components/Footer";
 import Profile from "./components/Profile";
 import ProfilePage2 from "./components/ProfilePage2";
 import ProfilePage3 from "./components/ProfilePage3";
+import ProfilePage4 from "./components/ProfilePage4";
 
 const About = () => {
   return (
@@ -40,6 +41,11 @@ const About = () => {
       <Box>
         <Container>
           <ProfilePage3 />
+        </Container>
+      </Box>
+      <Box>
+        <Container>
+          <ProfilePage4 />
         </Container>
       </Box>
       <Box bgcolor={"#fff"}>
